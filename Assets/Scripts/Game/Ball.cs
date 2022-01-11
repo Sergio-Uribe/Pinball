@@ -15,6 +15,7 @@ public class Ball : MonoBehaviour
     public void Die()
     {
         live.RemoveLive();
+        if (live.LivesCount == 0) return;
         transform.position = initialPos;
     }
 }

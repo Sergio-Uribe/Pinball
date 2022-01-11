@@ -9,18 +9,18 @@ public class Live : MonoBehaviour
 
     public event Action<int> OnLivesRemoved = null;
 
-    private int livesCount;
+    public int LivesCount { get; private set; }
 
     private void Start()
     {
-        livesCount = initialLives;
-        OnLivesRemoved?.Invoke(livesCount);
+        LivesCount = initialLives;
+        OnLivesRemoved?.Invoke(LivesCount);
     }
 
     public void RemoveLive()
     {
-        livesCount--;
-        OnLivesRemoved?.Invoke(livesCount);
+        LivesCount = Mathf.Max(LivesCount - 1, 0);
+        OnLivesRemoved?.Invoke(LivesCount);
     }
 
 }
