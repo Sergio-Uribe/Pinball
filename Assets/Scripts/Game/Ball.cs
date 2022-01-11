@@ -5,17 +5,17 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     [SerializeField] private Live live = null;
-    private Vector2 initialPos;
-
-    private void Start()
-    {
-        initialPos = transform.position;
-    }
+    [SerializeField] private Transform[] spawnPoints = new Transform[0];
 
     public void Die()
     {
         live.RemoveLive();
         if (live.LivesCount == 0) return;
-        transform.position = initialPos;
+        Respawn();
+    }
+
+    public void Respawn()
+    {
+        transform.position = spawnPoints[Random.Range(0, spawnPoints.Length)].position;
     }
 }
