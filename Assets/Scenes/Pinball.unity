@@ -329,7 +329,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8276089641656064936, guid: 9fad6381cec33834ab069ac444bab912, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -1.1297824
+      value: -1.0676241
       objectReference: {fileID: 0}
     - target: {fileID: 8276089641656064936, guid: 9fad6381cec33834ab069ac444bab912, type: 3}
       propertyPath: m_AngleLimits.m_LowerAngle
@@ -817,7 +817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6191403298177789492, guid: 4691c03d4599dd743aed3b92c5d2ca00, type: 3}
       propertyPath: m_Name
-      value: Wall (3)
+      value: BallKiller
       objectReference: {fileID: 0}
     - target: {fileID: 8464183153956135003, guid: 4691c03d4599dd743aed3b92c5d2ca00, type: 3}
       propertyPath: m_RootOrder
@@ -1766,6 +1766,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6465599314023780635, guid: 9fad6381cec33834ab069ac444bab912, type: 3}
   m_PrefabInstance: {fileID: 6465599313362110640}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1541876242 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6191403298177789492, guid: 4691c03d4599dd743aed3b92c5d2ca00, type: 3}
+  m_PrefabInstance: {fileID: 873282494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1541876243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541876242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27f3b3e890161e640b196e71962dc2d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1587823456
 GameObject:
   m_ObjectHideFlags: 0
@@ -2793,7 +2810,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8276089641656064936, guid: 9fad6381cec33834ab069ac444bab912, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 1.1297824
+      value: 1.0676242
       objectReference: {fileID: 0}
     - target: {fileID: 8276089641656064936, guid: 9fad6381cec33834ab069ac444bab912, type: 3}
       propertyPath: m_AngleLimits.m_UpperAngle
