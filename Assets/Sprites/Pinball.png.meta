@@ -1,0 +1,699 @@
+fileFormatVersion: 2
+guid: 12e6127280a01204d91b127abe559f22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7514518348023007122
+    second: Mesa de trabajo 4_0
+  - first:
+      213: -4094878071246608831
+    second: Mesa de trabajo 4_1
+  - first:
+      213: -8651696169811855220
+    second: Mesa de trabajo 4_2
+  - first:
+      213: 5826850541538811300
+    second: Mesa de trabajo 4_3
+  - first:
+      213: 3615635138596852776
+    second: Mesa de trabajo 4_4
+  - first:
+      213: -923000208292261728
+    second: Mesa de trabajo 4_5
+  - first:
+      213: -1750405933839823226
+    second: Mesa de trabajo 4_6
+  - first:
+      213: 7581581006143068866
+    second: Mesa de trabajo 4_7
+  - first:
+      213: 1338164382782750120
+    second: Mesa de trabajo 4_8
+  - first:
+      213: 9615154087760708
+    second: Mesa de trabajo 4_9
+  - first:
+      213: -8801229238139830217
+    second: Mesa de trabajo 4_10
+  - first:
+      213: 6592106268174666435
+    second: Mesa de trabajo 4_11
+  - first:
+      213: -437095298647408933
+    second: Mesa de trabajo 4_12
+  - first:
+      213: -6411899894164535282
+    second: Mesa de trabajo 4_13
+  - first:
+      213: 1399340524216470751
+    second: Mesa de trabajo 4_15
+  - first:
+      213: -4928805774727276467
+    second: Mesa de trabajo 4_16
+  - first:
+      213: -1475078803686829714
+    second: Mesa de trabajo 4_17
+  - first:
+      213: 4202898881885063030
+    second: Mesa de trabajo 4_19
+  - first:
+      213: 4770896785301860861
+    second: Mesa de trabajo 4_20
+  - first:
+      213: -8817080257137371641
+    second: Mesa de trabajo 4_22
+  - first:
+      213: 4879883191611452620
+    second: Mesa de trabajo 4_23
+  - first:
+      213: 8309722558248308709
+    second: Pinball_0
+  - first:
+      213: 2027350461091238884
+    second: Pinball_1
+  - first:
+      213: -7832042597481427282
+    second: Pinball_2
+  - first:
+      213: -4645827635040512244
+    second: Pinball_3
+  - first:
+      213: -4216275294361318998
+    second: Pinball_4
+  - first:
+      213: 7896421476328935676
+    second: Pinball_5
+  - first:
+      213: -4566028176249040237
+    second: Pinball_6
+  - first:
+      213: 823445427483835857
+    second: Pinball_7
+  - first:
+      213: -100404373125394569
+    second: Pinball_8
+  - first:
+      213: 276342218758953765
+    second: Pinball_9
+  - first:
+      213: 5075793070456422640
+    second: Pinball_10
+  - first:
+      213: 1181383542978052826
+    second: Pinball_11
+  - first:
+      213: -4639355479140260366
+    second: Pinball_12
+  - first:
+      213: -4461869706580293379
+    second: Pinball_13
+  - first:
+      213: 6823522386969646049
+    second: Pinball_15
+  - first:
+      213: 7682423878928576212
+    second: Pinball_16
+  - first:
+      213: -496663361011166090
+    second: Pinball_17
+  - first:
+      213: 545969583063543430
+    second: Pinball_19
+  - first:
+      213: -4793813212399932180
+    second: Pinball_20
+  - first:
+      213: 4746064782714049411
+    second: Pinball_22
+  - first:
+      213: -2165934541231490001
+    second: Pinball_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pinball_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 281
+        width: 41
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efc072d3a0125370800000000000000
+      internalID: 8309722558248308709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 251
+        width: 41
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e35194c088922c10800000000000000
+      internalID: 2027350461091238884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 404
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae4467e0cefe4390800000000000000
+      internalID: -7832042597481427282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_3
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 404
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0797bd6164b68fb0800000000000000
+      internalID: -4645827635040512244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_4
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 404
+        width: 73
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9865465f7cc75c0800000000000000
+      internalID: -4216275294361318998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_5
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 437
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf01a55ee79b59d60800000000000000
+      internalID: 7896421476328935676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_6
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 304
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3925048c09532a0c0800000000000000
+      internalID: -4566028176249040237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 312
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddf715e0477d6b00800000000000000
+      internalID: 823445427483835857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_8
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 264
+        width: 36
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f07fd21ca4b9ef0800000000000000
+      internalID: -100404373125394569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_9
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 266
+        width: 90
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b1299a8c3c5d300800000000000000
+      internalID: 276342218758953765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_10
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 140
+        width: 28
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0c1f5a7e6d07640800000000000000
+      internalID: 5075793070456422640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_11
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 131
+        width: 24
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad203b6b21e156010800000000000000
+      internalID: 1181383542978052826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_12
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 202
+        width: 152
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f52517a5c2bd9fb0800000000000000
+      internalID: -4639355479140260366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_13
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 161
+        width: 129
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8843154214412c0800000000000000
+      internalID: -4461869706580293379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 148
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e35048557502be50800000000000000
+      internalID: 6823522386969646049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_16
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 128
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de248d80d37d9a60800000000000000
+      internalID: 7682423878928576212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_17
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 131
+        width: 102
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6745af9fd4f7b19f0800000000000000
+      internalID: -496663361011166090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_19
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 27
+        width: 158
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68eaba0717ca39700800000000000000
+      internalID: 545969583063543430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_20
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 104
+        width: 69
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cece3533844f87db0800000000000000
+      internalID: -4793813212399932180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_22
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 45
+        width: 145
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38399ae26c86dd140800000000000000
+      internalID: 4746064782714049411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pinball_23
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 38
+        width: 114
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2cf527a20e01f1e0800000000000000
+      internalID: -2165934541231490001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
