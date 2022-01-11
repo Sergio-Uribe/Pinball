@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 6465599314023780635}
   - component: {fileID: 6465599314023780634}
   - component: {fileID: 17331455427862516}
+  - component: {fileID: 3272473967232169430}
+  - component: {fileID: 8276089641656064936}
+  - component: {fileID: 8908298899482893208}
   m_Layer: 0
   m_Name: Flipper
   m_TagString: Untagged
@@ -123,3 +126,64 @@ PolygonCollider2D:
       - {x: -0.2165893, y: -0.27248245}
       - {x: 0.36387488, y: -0.05907163}
       - {x: 0.4431786, y: -0.012946634}
+--- !u!50 &3272473967232169430
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6465599314023780633}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 4
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!233 &8276089641656064936
+HingeJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6465599314023780633}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0.29732347, y: 0.121748924}
+  m_ConnectedAnchor: {x: -1.0676241, y: -4.293606}
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 0
+    m_MaximumMotorForce: 10000
+  m_UseLimits: 1
+  m_AngleLimits:
+    m_LowerAngle: 0
+    m_UpperAngle: 45
+--- !u!114 &8908298899482893208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6465599314023780633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41c7d3df985307b4da94dc4d370680ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 3272473967232169430}
+  torque: 200
+  impulseKey: 97
+  isNegative: 0
