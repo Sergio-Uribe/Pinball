@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
+    [SerializeField] private Live live = null;
     private Vector2 initialPos;
 
     private void Start()
@@ -11,8 +12,9 @@ public class Ball : MonoBehaviour
         initialPos = transform.position;
     }
 
-    public void Respawn()
+    public void Die()
     {
+        live.RemoveLive();
         transform.position = initialPos;
     }
 }
