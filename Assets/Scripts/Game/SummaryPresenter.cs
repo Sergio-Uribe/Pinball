@@ -18,8 +18,9 @@ public class SummaryPresenter : MonoBehaviour
         panel.SetActive(false);
     }
 
-    private void CheckLivesCount(int livesCount)
+    private void CheckLivesCount()
     {
+        int livesCount = live.LivesCount;
         if (livesCount > 0) return;
         panel.SetActive(true);
     }

@@ -10,11 +10,17 @@ public class LivesDisplay : MonoBehaviour
 
     private void Awake()
     {
-        live.OnLivesRemoved += HandleLivesRemoved;
+        live.OnLivesRemoved += UpdateLivesText;
     }
 
-    private void HandleLivesRemoved(int livesCount)
+    private void Start()
     {
+        UpdateLivesText();
+    }
+
+    private void UpdateLivesText()
+    {
+        int livesCount = live.LivesCount;
         livesText.text = livesCount.ToString();
     }
 }
