@@ -5,6 +5,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     [SerializeField] private Live live = null;
+    [SerializeField] private Rigidbody2D rb = null;
     [SerializeField] private Transform[] spawnPoints = new Transform[0];
 
     public void Die()
@@ -16,6 +17,7 @@ public class Ball : MonoBehaviour
 
     public void Respawn()
     {
+        rb.velocity = Vector2.zero;
         transform.position = spawnPoints[Random.Range(0, spawnPoints.Length)].position;
     }
 }
