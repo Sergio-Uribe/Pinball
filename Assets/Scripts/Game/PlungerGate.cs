@@ -21,11 +21,13 @@ public class PlungerGate : MonoBehaviour
 
     private void Open()
     {
+        anim.ResetTrigger("Close");
         anim.SetTrigger("Open");
     }
 
     public void Close()
     {
+        anim.ResetTrigger("Close");
         anim.SetTrigger("Close");
     }
 }
