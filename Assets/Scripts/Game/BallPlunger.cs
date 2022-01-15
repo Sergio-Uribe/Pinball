@@ -6,14 +6,28 @@ public class BallPlunger : MonoBehaviour
 {
     [SerializeField] private KeyCode impulseKey = KeyCode.Space;
     [SerializeField] private float maxPower = 20f;
+    [SerializeField] private float impulseRate = 30f;
 
     private Ball ball;
 
+    private float power;
+
     private void Update()
     {
-        if (!Input.GetKeyDown(impulseKey) || ball == null) return;
-        ball.Impulse(maxPower);
+        if (ball == null) return;
+        if (Input.GetKeyDown(impulseKey))
+            UpdatePower(0f);
+        else if (Input.GetKey(impulseKey))
+            UpdatePower(power + impulseRate * Time.deltaTime);
+        else if (Input.GetKeyUp(impulseKey))
+            ball.Impulse(power);
     }
+
+    public void UpdatePower(float newPower)
+    {
+        power = Mathf.Min(newPower, maxPower);
+    }
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
