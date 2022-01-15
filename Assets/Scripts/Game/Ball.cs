@@ -6,7 +6,7 @@ public class Ball : MonoBehaviour
 {
     [SerializeField] private Live live = null;
     [SerializeField] private Rigidbody2D rb = null;
-    [SerializeField] private Transform[] spawnPoints = new Transform[0];
+    [SerializeField] private Transform spawnPoint = null;
 
     public void Die()
     {
@@ -18,6 +18,12 @@ public class Ball : MonoBehaviour
     public void Respawn()
     {
         rb.velocity = Vector2.zero;
-        transform.position = spawnPoints[Random.Range(0, spawnPoints.Length)].position;
+        rb.angularVelocity = 0f;
+        transform.position = spawnPoint.position;
+    }
+
+    public void Impulse(float force)
+    {
+        rb.velocity = Vector2.up * force;
     }
 }

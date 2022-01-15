@@ -11,14 +11,12 @@ public class GameStarter : MonoBehaviour
     private void Start()
     {
         if (started) return;
-        ball.gameObject.SetActive(false);
         panel.SetActive(true);
     }
 
     public void StartGame()
     {
         started = true;
-        ball.gameObject.SetActive(true);
         ball.Respawn();
         panel.SetActive(false);
     }
