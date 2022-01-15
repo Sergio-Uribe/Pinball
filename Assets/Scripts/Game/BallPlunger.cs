@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,13 @@ public class BallPlunger : MonoBehaviour
 
     private float power;
 
+    public event Action<float> OnPowerUpdated = null;
+
+    private void Awake()
+    {
+        UpdatePower(0f);
+    }
+
     private void Update()
     {
         if (ball == null) return;
@@ -23,9 +31,10 @@ public class BallPlunger : MonoBehaviour
             ball.Impulse(power);
     }
 
-    public void UpdatePower(float newPower)
+    private void UpdatePower(float newPower)
     {
         power = Mathf.Min(newPower, maxPower);
+        OnPowerUpdated?.Invoke(power / maxPower);
     }
 
 
