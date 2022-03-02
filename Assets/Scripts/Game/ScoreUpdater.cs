@@ -9,12 +9,22 @@ public class ScoreUpdater : MonoBehaviour
 
     private int scoreCount;
 
+    private void Awake()
+    {
+        ScoreBouncer.OnScoreBounce += AddScore;
+    }
+
     private void Start()
     {
         OnScoreAdded?.Invoke(scoreCount);
     }
 
-    public void AddScore(int count)
+    private void OnDestroy()
+    {
+        ScoreBouncer.OnScoreBounce -= AddScore;
+    }
+
+    private void AddScore(int count)
     {
         scoreCount += count;
         OnScoreAdded?.Invoke(scoreCount);
